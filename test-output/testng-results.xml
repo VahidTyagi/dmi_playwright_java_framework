@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-02T12:03:26 IST" name="Default suite" finished-at="2026-02-02T12:03:43 IST" duration-ms="16181">
+  <suite started-at="2026-02-02T12:27:51 IST" name="DMI Playwright Test Suite" finished-at="2026-02-02T12:28:15 IST" duration-ms="23375">
     <groups>
     </groups>
-    <test started-at="2026-02-02T12:03:26 IST" name="Default test" finished-at="2026-02-02T12:03:43 IST" duration-ms="16181">
+    <test started-at="2026-02-02T12:27:51 IST" name="Home Page Tests" finished-at="2026-02-02T12:28:15 IST" duration-ms="23375">
       <class name="com.dmi.qa.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dmi.qa.tests.HomePageTest@34123d65]" started-at="2026-02-02T12:03:26 IST" name="setUp" finished-at="2026-02-02T12:03:38 IST" duration-ms="11775" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dmi.qa.tests.HomePageTest@34123d65]" started-at="2026-02-02T12:27:51 IST" name="setUp" finished-at="2026-02-02T12:28:14 IST" duration-ms="22981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageTitleTest()[pri:0, instance:com.dmi.qa.tests.HomePageTest@34123d65]" started-at="2026-02-02T12:03:38 IST" name="verifyHomePageTitleTest" finished-at="2026-02-02T12:03:42 IST" duration-ms="3925" status="PASS">
+        <test-method signature="verifyHomePageTitleTest()[pri:0, instance:com.dmi.qa.tests.HomePageTest@34123d65]" started-at="2026-02-02T12:28:14 IST" name="verifyHomePageTitleTest" finished-at="2026-02-02T12:28:14 IST" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dmi.qa.tests.HomePageTest@34123d65]" started-at="2026-02-02T12:03:42 IST" name="tearDown" finished-at="2026-02-02T12:03:43 IST" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dmi.qa.tests.HomePageTest@34123d65]" started-at="2026-02-02T12:28:14 IST" name="tearDown" finished-at="2026-02-02T12:28:15 IST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dmi.qa.tests.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Home Page Tests -->
+  </suite> <!-- DMI Playwright Test Suite -->
 </testng-results>

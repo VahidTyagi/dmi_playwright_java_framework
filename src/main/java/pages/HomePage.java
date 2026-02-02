@@ -12,12 +12,7 @@ public class HomePage {
         this.page = page;
     }
 
-    public void navigateToHomePage() {
-        page.navigate("https://www.dmifinance.in/");
-    }
-
     public String getPageTitle() {
         return page.title();
     }
 }
-

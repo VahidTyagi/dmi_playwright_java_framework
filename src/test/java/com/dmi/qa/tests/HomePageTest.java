@@ -15,16 +15,10 @@ public class HomePageTest extends BaseTest {
 
         HomePage homePage = new HomePage(page);
 
-        homePage.navigateToHomePage();
-
         String actualTitle = homePage.getPageTitle();
-        System.out.println("Page Title is: " + actualTitle);
+        System.out.println("Home Page Title: " + actualTitle);
 
-        Assert.assertTrue(actualTitle.length() > 0,
-                "Page title should not be empty");
+        Assert.assertTrue(actualTitle.contains("DMI"),
+                "Home page title does not contain expected text");
     }
-    
-    
-    
 }
-
